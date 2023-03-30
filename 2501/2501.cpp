@@ -1,10 +1,10 @@
-﻿#define _CRT_SECURE_NO_WARNINRGS
+﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void main() {
 	int n, k, i;
 	int cnt = 0;
-	scanf_s("%d %d", &n, &k);
+	scanf("%d %d", &n, &k);
 
 	for (i = 1; i <= n; i++) {
 		if (n % i == 0) {
